@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+ 
+  <header class="header">
+    <a class="logo" href="#">
+      <img src="images/logo.png" alt="logo image">
+    </a>
+    <div class="header__inner">
+      <button class="header__btn">
+        <span class="header__btn-icon"></span> Add new film
+      </button>
+    </div>
+  </header>
+  <div class="container">
+    <div class="form-add" id="form1">
+      <label class="form-add__label">
+        <span class="form-add__subtitle">
+          Title
+        </span>
+        <input class="form-add__input" id='title'>
+      </label>
+      <label class="form-add__label">
+        <span class="form-add__subtitle">
+          year
+        </span>
+        <input class="form-add__input" id='year'>
+      </label>
+      <label class="form-add__label">
+        <span class="form-add__subtitle">
+          country
+        </span>
+        <input class="form-add__input" id="country">
+      </label>
+      <label class="form-add__label">
+        <span class="form-add__subtitle">
+          genre
+        </span>
+        <input class="form-add__input" id="genre">
+      </label>
+      <label class="form-add__label">
+        <span class="form-add__subtitle">
+          poster (link)
+        </span>
+        <input class="form-add__input" id="poster">
+      </label>
+      <label class="form-add__label">
+        <span class="form-add__subtitle">
+          Actors
+        </span>
+        <textarea class="form-add__textarea" id="actors"></textarea>
+      </label>
+      <label class="form-add__label">
+        <span class="form-add__subtitle">
+          description
+        </span>
+        <textarea class="form-add__textarea" id="description"></textarea>
+      </label>
+      <button class="btn btn__cancel form__cancel">Cancel</button>
+      <button class="btn btn__add form__add">Add</button>
+    </div>
+  </div>
+  <section class="films">
+    <div class="container">
+      <div class="films__item" id="aa">
+        <div class="films__item-wrapper">
+          <div class="films__item-img">
+            <img src="images/cart.jpg" alt="film image">
+          </div>
+          <div class="films__inner">
+            <h2 class="films__title films__correct-input">
+              Martian
+            </h2>
+            <p class="films__description films__correct-textarea">
+              Mars mission Ares-2 in the process was forced to urgently leave the planet because of the impending sandstorm. Engineer and Biolog mark Watney suffered an injury suit during a sand storm. The mission,considering him dead...
+            </p>
+            <div class="films__box">
+              <span class="films__group">country</span>
+              <span class="films__name films__correct-input">USA</span>
+            </div>
+            <div class="films__box">
+              <span class="films__group">year</span>
+              <span class="films__name films__correct-input">2016</span>
+            </div>
+            <div class="films__box">
+              <span class="films__group">Genre</span>
+              <span class="films__name films__correct-input">Fantasy</span>
+            </div>
+            <div class="films__box">
+              <span class="films__group">actors</span>
+              <span class="films__name films__correct-textarea">Aksel Hennie, Chiwetel Ejiofor, Jeff Daniels, Jessica Chastain, Kate Mara, Kristen Wiig, Matt Damon, Michael Peña, Sean Bean, Sebastian Stan</span>
+            </div>
+            <button class="btn btn__cancel film__del">Delete</button>
+            <button class="btn btn__add film__edit">Edit</button>
+          </div>
+        </div>
+        <div class="films__commnts comments">
+          <button class="comments__btn">Comments: <span class="comments__count">3</span>
+            <svg width='18px' height='12px' fill="#ff7e70" viewBox="0 0 320 512">
+              <path
+                d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+              </path>
+            </svg>
+          </button>
+          <div class="comments__inner">
+            <div class="comments__items">
+              <div class="comments__item">
+                Test comment 1
+              </div>
+              <div class="comments__item">
+                Test comment 2
+              </div>
+            </div>
+            <textarea class="form-add__textarea comments__textarea" placeholder="Add your comment"></textarea>
+            <button class="btn btn__add comment__add">Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="films__item" id="2">
+        <div class="films__item-wrapper">
+          <div class="films__item-img">
+            <img src="images/cart.jpg" alt="film image">
+          </div>
+          <div class="films__inner">
+            <h2 class="films__title films__correct-input">
+              Martian
+            </h2>
+            <p class="films__description films__correct-textarea">
+              Mars mission Ares-2 in the process was forced to urgently leave the planet because of the impending sandstorm. Engineer and Biolog mark Watney suffered an injury suit during a sand storm. The mission,considering him dead...
+            </p>
+            <div class="films__box">
+              <span class="films__group">country</span>
+              <span class="films__name films__correct-input">USA</span>
+            </div>
+            <div class="films__box">
+              <span class="films__group">year</span>
+              <span class="films__name films__correct-input">2016</span>
+            </div>
+            <div class="films__box">
+              <span class="films__group">Genre</span>
+              <span class="films__name films__correct-input">Fantasy</span>
+            </div>
+            <div class="films__box">
+              <span class="films__group">actors</span>
+              <span class="films__name films__correct-textarea">Aksel Hennie, Chiwetel Ejiofor, Jeff Daniels, Jessica Chastain, Kate Mara, Kristen Wiig, Matt Damon, Michael Peña, Sean Bean, Sebastian Stan</span>
+            </div>
+            <button class="btn btn__cancel film__del">Delete</button>
+            <button class="btn btn__add film__edit">Edit</button>
+          </div>
+        </div>
+        <div class="films__commnts comments">
+          <button class="comments__btn">Comments: <span class="comments__count">3</span>
+            <svg width='18px' height='12px' fill="#ff7e70" viewBox="0 0 320 512">
+              <path
+                d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+              </path>
+            </svg>
+          </button>
+          <div class="comments__inner">
+            <div class="comments__items">
+              <div class="comments__item">
+                Test comment 1
+              </div>
+              <div class="comments__item">
+                Test comment 2
+              </div>
+            </div>
+            <textarea class="form-add__textarea comments__textarea" placeholder="Add your comment"></textarea>
+            <button class="btn btn__add comment__add">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="article"></div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

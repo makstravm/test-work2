@@ -1,0 +1,106 @@
+@media (max-width: 1000px) {
+  .films {
+    &__item-wrapper {
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+    &__item-img {
+      min-width: 250px;
+      img {
+        height: 340px;
+      }
+    }
+  }
+  .comments {
+    padding: 35px;
+  }
+}
+@media (max-width: 870px) {
+  .films {
+    &__item-wrapper {
+      display: block;
+    }
+    &__item-img {
+      min-width: auto;
+      max-width: 250px;
+      margin: 0 auto 25px;
+      img {
+        height: 340px;
+      }
+    }
+    &__inner {
+      max-width: 100%;
+    }
+  }
+}
+@media (max-width: 700px) {
+  body {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .header {
+    &__inner {
+      padding-left: 25px;
+    }
+    &__btn-icon {
+      width: 28px;
+      height: 28px;
+    }
+  }
+  .logo {
+    img {
+      width: 150px;
+    }
+  }
+  .form-add {
+    padding-left: 50px;
+  }
+  .films {
+    &__title {
+      font-size: 2.5rem;
+    }
+    &__group {
+      max-width: 85px;
+    }
+    &__item-wrapper {
+      padding: 30px 25px;
+    }
+  }
+  .comments {
+    &__item {
+      padding: 10px 0;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .btn {
+    min-width: 100px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    &__btn {
+      font-size: 1.2rem;
+    }
+    &__btn-icon {
+      margin-right: 10px;
+    }
+  }
+  .form-add {
+    padding: 35px 20px 30px 20px;
+    &__subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+    &__input,
+    &__textarea {
+      margin-bottom: 15px;
+      padding: 5px 10px;
+    }
+    &__textarea {
+      height: 75px;
+    }
+  }
+}
